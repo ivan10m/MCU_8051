@@ -1,0 +1,2 @@
+1. Napraviti semafor (crveno->crveno i žuta->zeleno->žuto->crveno). Koristiti izlaze P1.0, P1.1, P1.2.
+2. Napraviti trčeće svjetlo na portu P1, pali se jedna po jedna ledica dok se sve ne upale i onda ispočetka.
