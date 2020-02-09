@@ -1,0 +1,23 @@
+- Kako koristiti header datoteku ?
+	Copy/Paste lcd.h u vaš projekt mapu. Dodati lcd.h u vaš source group.
+
+	1. Desni klik na Source Group
+
+	2. Kliknuti na “Add Files to ‘Group Source Group 1’
+
+	3. Izabrati lcd.h i kliknuti Add
+
+
+- Funkcije za rad s LCDom
+
+Lcd8_Clear() & Lcd4_Clear() : čisti zaslon LCDa u 8 bitnom ili 4 bitnom modu.
+
+Lcd8_Set_Cursor() & Lcd4_Set_Cursor() : Postavlja kursor na određeno mjesto na LCDu (npr. Lcd4_Set_Cursor(1,1) - postavlja kursor na prvi redak i prvo mjesto)
+
+Lcd8_Write_Char() & Lcd4_Write_Char() : ova funkcija ispisuje pojedinačan znak na LCDu (npr. Lcd4_Write_Char('A')).
+
+Lcd8_Write_String() & Lcd4_Write_String() : ova funkcija ispisuje niz znakova na LCDu (npr. Lcd4_Write_String("Hello World")).
+
+Lcd8_Shift_Left() & Lcd4_Shift_Left() : pomak teksta ulijevo.
+
+Lcd8_Shift_Right() & Lcd4_Shift_Right() : pomak teksta udesno.
