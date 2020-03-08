@@ -1,0 +1,15 @@
+Zadaci
+
+1. Na mikrokontroler spojite jedno tipkalo i jednu svjetleću diodu. Napišite program koji će diodu uključivati i isključivati prema stanju tipkala. 
+   Ako je tipkalo otpušteno dioda je uključena, a ako je tipkalo pritisnuto dioda je isključena.
+
+2. Na mikrokontroler spojite tri LED diode i dva tipkala. Napišite program koji će kada se pritisne prvo tipkalo napraviti jedan ciklus trčećeg svjetla s lijeve na desnu stranu. 
+   Znači, kada pritisnemo prvo tipkalo uključuje se lijeva LED dioda, potom se uključuje srednja i na kraju se uključuje desna LED dioda. U svakom trenutku svijetli samo jedna LED dioda. 
+   Svaka LED dioda svijetli pola sekunde. Kada se pritisne drugo tipkalo zbiva se ista animacija na LED diodama ali s desne na lijevu stranu.
+
+3. Na mikrokontroler spojite jednu sklopku i dvije svjetleće diode. Napišite program koji će upravljati radom svjetleće diode na sljedeći način: kada je sklopka zatvorena neka je prva svjetleća dioda uključena,
+   a druga svjetleća dioda neka blinka. Kada je sklopka otvorena neka prva svjetleća dioda blinka, a druga svjetleća dioda neka bude uključena. Svjetleće diode blinkaju u intervalima od pola sekunde.
+
+4. Na mikrokontroler spojite dvije sklopke i jednu svjetleću diodu. Napišite program koji će uključiti diodu kada su obe sklopke zatvorene. U svim ostalim slučajevima LED dioda je isključena.
+
+5. Na mikrokontroler spojite dvije sklopke i jednu svjetleću diodu. Napišite program tako da svjetleća dioda bude uključena dok god je pritisnuto bilo koju od dvije sklopke. Kada su obje sklopke otvorene LED dioda ne svijetli.
